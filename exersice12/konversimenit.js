@@ -14,14 +14,14 @@ function konversiMenit(menit){
         if(sisaMenit < konversiJam){
             var displayJam = konversiJam/60;
         }else{
-            var displayJam = 0;
+            displayJam = 0;
         }
 
         // tampilan jika angka menit hanya 1 digit
         if(sisaMenit < 10){
             var displayMenit = '0'+sisaMenit;
         }else{
-            var displayMenit = sisaMenit;
+            displayMenit = sisaMenit;
         }
         
         return displayJam+':'+displayMenit;
