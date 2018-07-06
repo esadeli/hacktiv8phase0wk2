@@ -1,5 +1,5 @@
-//-Exersice 10
-console.log('Exersice10 - Banding Angka\n');
+//-Exersice 13
+console.log('Exersice13 - Logic XO\n');
 
 //Definisikan variable
 var str;
