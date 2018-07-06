@@ -7,8 +7,7 @@ console.log('===========Selamat datang di game Proxytia=========== \n');
 
 // Definisikan variable input
 var nama = 'Barry Allen';
-var listPeran = ['Ksatria','Tabib','Penyihir'];
-var peran = listPeran[0] // Memilih Penyihir
+var peran = 'Ksatria' // Pilih antara 'Ksatria','Tabib','Penyihir'
 
 // Algoritma pengecekan
 console.log('Input nama anda: ')
@@ -28,21 +27,6 @@ if(nama){
     }else{
         console.log('Halo '+nama+', Pilih peranmu untuk memulai game!');
     }
-
-    // switch(peran){
-    //     case 'Ksatria':
-    //         console.log('Halo '+peran+' '+nama+', kamu dapat menyerang dengan senjatamu!');
-    //         break;
-    //     case 'Tabib':
-    //         console.log('Halo '+peran+' '+nama+', kamu akan membantu temanmu yang terluka.');
-    //         break;
-    //     case 'Penyihir':
-    //         console.log('Halo '+peran+' '+nama+', ciptakan keajaiban yang membantu kemenanganmu!');
-    //         break;    
-    //     default:
-    //         console.log('Maaf, kamu harus memilih peran yang ada terlebih dahulu');
-    //         break;    
-    // }
 }else{
     console.log('Nama harus diisi');
 }

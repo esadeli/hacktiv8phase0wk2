@@ -7,7 +7,7 @@ Jumlah murid adalah 40 orang.
 
 Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut, jika tidak guru akan memuji siswa/siswi tersebut.
 
-//Algoritma
+----Pseudocode----
 1. Definisikan variabel 'jumlahMurid' untuk menentukan jumlah murid di dalam kelas
 
 2. Berikan nilai 'jumlahMurid' = 40
@@ -23,3 +23,27 @@ Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan m
    5.2 Jika murid tersebut memiliki kuku yang rapih (bernilai true), maka guru akan memuji murid tersebut
    
    5.2 Jika ternyata murid tersebut kukunya tidak rapih (bernilai false), maka guru akan menghukum murid tersebut.
+
+
+----Pseudocode----
+SET 'jumlahMurid' to 40
+SET 'kondisiKukuMurid'['jumlahMURID'] 
+SET 'index' to 0
+
+FOR 'index' 0 to 'jumlahMurid'+1 
+	'index' = 'index' + 1
+
+	IF 'kondisiKukuMurid'[index] EQUAL true THEN
+
+		DISPLAY "Wah kukunya rapih"
+
+	ELSE 
+		
+		DISPLAY "Murid ke "+'index'+ "kamu dihukum"
+
+	ENDIF
+	
+ENDFOR			
+
+
+

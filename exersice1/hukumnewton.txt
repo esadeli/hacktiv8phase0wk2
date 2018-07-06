@@ -6,7 +6,7 @@ Gaya pada benda sebanding dengan perkalian massa benda dan percepatan benda ters
 
 Gaya = massa x percepatan
 
-Algoritma:
+----Algoritma biasa----
 1. Definisikan variabel 'm', mewakili massa benda (dalam kg).
 
 2. Definisikan variabel 'a', mewakili percepatan benda (dalam m/s2).
@@ -24,3 +24,13 @@ Algoritma:
 8. Dapatkan nilai 'F'.
 
 9. Display nilai 'F'.
+
+
+----Pseudocode----
+SET 'm' to 10
+SET 'a' t0 9.8
+SET 'F'
+
+CALCULATE 'F' = 'm'*'a' 
+
+DISPLAY 'F'

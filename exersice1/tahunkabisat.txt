@@ -5,7 +5,7 @@ Definisi tahun kabisat :
 1. Tahun yang habis di bagi 4 dan tidak habis di bagi 100, atau
 2. Tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
 
-// Algoritma
+----Algoritma biasa----
 1. Definisikan variable 'tahun';
 
 2. Definiskan skema if-else untuk menentukan apakah tahun tersebut kabisat atau bukan.
@@ -19,3 +19,20 @@ Definisi tahun kabisat :
    2.3 jika kondisi pada poin 2.1 dan 2.2 tidak terpenuhi, maka tampilkan:
    Tahun 'tahun' bukan tahun kabisat
 
+
+----Pseudocode----
+SET 'tahun' to 2000
+
+IF 'tahun' mod 4 EQUAL 0 AND 'tahun' mod 100 NOT EQUAL 0 THEN
+
+	DISPLAY "Tahun 'tahun' adalah tahun kabisat"
+
+ELSE IF 'tahun' mod 400 EQUAL 0 AND 'tahun' mod 100 EQUAL 0 AND 'tahun' mod 4 EQUAL 0 THEN
+	
+	DISPLAY "Tahun 'tahun' adalah tahun kabisat"
+
+ELSE
+	
+	DISPLAY "Tahun 'tahun' bukan tahun kabisat" 
+
+ENDIF

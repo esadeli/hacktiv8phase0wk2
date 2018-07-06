@@ -1,10 +1,11 @@
-//Exersice 1 - Menjalankan mesin cuci setelah n jumlah pakaian
+//Exersice 1 - Menjalankan mesin cuci setelah 20 jumlah pakaian
 
 
 //Diketahui:
 Sebuah mesin cuci baru akan dinyalakan ketika jumlah pakaian di dalam mesin cuci sudah mencapai 20 potong.
 
-//Algoritma:
+----Algoritma biasa----
+
 1. Definisikan variable 'hitung' untuk menghitung jumlah pakaian yang sudah dimasukkan ke dalam mesin cuci
 
 2. Definisikan variable 'jumlahPakaianStart' untuk menentukan jumlah pakaian saat mesin cuci bisa mulai bekerja
@@ -13,9 +14,41 @@ Sebuah mesin cuci baru akan dinyalakan ketika jumlah pakaian di dalam mesin cuci
 
 4. Berikan nilai variable 'jumlahPakaianStart' = 20 
 
-3. Definisikan skema looping while untuk menghitung pakaian dan apabila telah mencapai nilai 'jumlahPakaianStart'
-   3.1 Hitung jumlah pakaian.
+5. Definisikan skema looping while untuk menghitung pakaian dan apabila telah mencapai nilai 'jumlahPakaianStart'
+   5.1 Hitung jumlah pakaian.
    
-   3.2 Jika variable 'hitung' belum mencapai nilai 'jumlahPakaianStart' tambahkan nilai variable 'hitung' dengan nilai 1, simpan nilai terbaru variable 'hitung'
+   5.2 Jika variable 'hitung' belum mencapai nilai 'jumlahPakaianStart' tambahkan nilai variable 'hitung' dengan nilai 1, simpan nilai terbaru variable 'hitung'
    
-   3.3 Jika variable 'hitung' sudah mencapai nilai 'jumlahPakaianStart', maka jalankan mesin cuci.
+   5.3 Jika variable 'hitung' sudah mencapai nilai 'jumlahPakaianStart', maka jalankan mesin cuci.
+
+
+----Pseudocode----
+SET 'hitung' to 0
+SET 'jumlahPakaianMax' to 20
+
+
+IF 'jumlahPakaianMax' <= 20 THEN
+	DISPLAY "Mari mulai bekerja"
+
+	WHILE 'hitung' < 'jumlahPakaianMax'
+	
+		'hitung' = 'hitung' + 1
+		DISPLAY "Saat ini ada " + 'hitung' +" pakaian"
+	
+	ENDWHILE
+
+	IF 'hitung' EQUAL 20 THEN
+
+		DISPLAY "Terima kasih, total sudah ada "+'hitung'+" pakaian di mesin cuci. Mari mencuci"
+
+	ELSE 
+
+		DISPLAY "Jumlah pakaian anda saat ini "+'hitung'+" silakan tambahkan hingga mencapai 20 potong"
+
+	ENDIF
+
+ELSE
+	
+	DISPLAY "Jumlah pakaian anda melebihi 20 potong"
+
+ENDIF
