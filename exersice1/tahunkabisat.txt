@@ -1,0 +1,21 @@
+//Exersice 1 - Penentuan apakah suatu tahun kabisat atau bukan 
+
+// Basis Teori
+Definisi tahun kabisat :
+1. Tahun yang habis di bagi 4 dan tidak habis di bagi 100, atau
+2. Tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+
+// Algoritma
+1. Definisikan variable 'tahun';
+
+2. Definiskan skema if-else untuk menentukan apakah tahun tersebut kabisat atau bukan.
+   
+   2.1 Jika 'tahun' habis dibagi 4 dan tidak habis dibagi 100, maka tampilkan:
+   Tahun 'tahun' adalah tahun kabisat
+   
+   2.2 atau jika 'tahun' habis dibagi 400, habis dibagi 100 dan habis dibagi 4, maka tampilkan:
+   Tahun 'tahun' adalah tahun kabisat
+   
+   2.3 jika kondisi pada poin 2.1 dan 2.2 tidak terpenuhi, maka tampilkan:
+   Tahun 'tahun' bukan tahun kabisat
+

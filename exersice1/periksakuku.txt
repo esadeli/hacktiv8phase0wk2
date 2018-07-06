@@ -1,0 +1,25 @@
+//Exersice 1 - Periksa Kuku 
+
+
+//Diketahui:
+Seorang guru akan memeriksa kuku siswa-siswinya. 
+Jumlah murid adalah 40 orang. 
+
+Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut, jika tidak guru akan memuji siswa/siswi tersebut.
+
+//Algoritma
+1. Definisikan variabel 'jumlahMurid' untuk menentukan jumlah murid di dalam kelas
+
+2. Berikan nilai 'jumlahMurid' = 40
+
+3. Definisikan variabel array satu dimensi
+   dengan nama 'kondisiKukuMurid' dengan size = nilai variabel 'jumlahMurid'.
+
+4. Silakan tentukan secara random nilai setiap elemen array; berikan nilai true jika murid tersebut memiliki kuku yang rapih dan false jika murid tersebut memiliki kuku yang berantakan.
+
+5. Buat suat skema looping untuk menentukan murid tersebut dihukum atau tidak.
+   5.1 Lakukan iterasi dari 1 hingga 40
+   
+   5.2 Jika murid tersebut memiliki kuku yang rapih (bernilai true), maka guru akan memuji murid tersebut
+   
+   5.2 Jika ternyata murid tersebut kukunya tidak rapih (bernilai false), maka guru akan menghukum murid tersebut.

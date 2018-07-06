@@ -1,0 +1,21 @@
+//Exersice 1 - Menjalankan mesin cuci setelah n jumlah pakaian
+
+
+//Diketahui:
+Sebuah mesin cuci baru akan dinyalakan ketika jumlah pakaian di dalam mesin cuci sudah mencapai 20 potong.
+
+//Algoritma:
+1. Definisikan variable 'hitung' untuk menghitung jumlah pakaian yang sudah dimasukkan ke dalam mesin cuci
+
+2. Definisikan variable 'jumlahPakaianStart' untuk menentukan jumlah pakaian saat mesin cuci bisa mulai bekerja
+
+3. Berikan nilai awal variable 'hitung' = 0
+
+4. Berikan nilai variable 'jumlahPakaianStart' = 20 
+
+3. Definisikan skema looping while untuk menghitung pakaian dan apabila telah mencapai nilai 'jumlahPakaianStart'
+   3.1 Hitung jumlah pakaian.
+   
+   3.2 Jika variable 'hitung' belum mencapai nilai 'jumlahPakaianStart' tambahkan nilai variable 'hitung' dengan nilai 1, simpan nilai terbaru variable 'hitung'
+   
+   3.3 Jika variable 'hitung' sudah mencapai nilai 'jumlahPakaianStart', maka jalankan mesin cuci.

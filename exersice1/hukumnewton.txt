@@ -1,0 +1,26 @@
+//Exersice 1 - Perhitungan massa benda dengan menggunakan Hukum Newton II
+
+// Basis Teori:
+Hukum Newton II berbunyi:
+Gaya pada benda sebanding dengan perkalian massa benda dan percepatan benda tersebut.
+
+Gaya = massa x percepatan
+
+Algoritma:
+1. Definisikan variabel 'm', mewakili massa benda (dalam kg).
+
+2. Definisikan variabel 'a', mewakili percepatan benda (dalam m/s2).
+
+3. Definisikan variabel 'F', mewakili gaya benda (dalam N).
+
+4. Beri nilai 'm' = 10
+
+5. Beri nilai 'a' = 9.8
+
+6. Definisikan formulasi rumus gaya pada benda F = m x a;
+
+7. Input nilai variabel 'm' dan 'a' kedalam formula di point 5   
+
+8. Dapatkan nilai 'F'.
+
+9. Display nilai 'F'.
